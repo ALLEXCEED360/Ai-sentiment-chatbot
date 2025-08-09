@@ -1,0 +1,38 @@
+{
+  "name": "ai-sentiment-chatbot",
+  "version": "1.0.0",
+  "description": "🤖 AI-powered sentiment analysis chatbot with real-time emotion detection and vibrant UI",
+  "main": "app.py",
+  "scripts": {
+    "install-all": "pip install -r requirements.txt && cd frontend && npm install",
+    "start-backend": "python app.py",
+    "start-frontend": "cd frontend && npm start",
+    "start": "concurrently \"python app.py\" \"cd frontend && npm start\"",
+    "test": "cd frontend && npm test",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "sentiment-analysis",
+    "chatbot",
+    "ai",
+    "react",
+    "flask",
+    "textblob",
+    "emotion-detection",
+    "nlp",
+    "machine-learning"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ai-sentiment-chatbot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/ai-sentiment-chatbot/issues"
+  },
+  "homepage": "https://github.com/yourusername/ai-sentiment-chatbot#readme",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
